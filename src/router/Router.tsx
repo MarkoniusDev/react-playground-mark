@@ -44,7 +44,7 @@ const Header = () => {
         </div>
         <ul className="Nav-links">
           <li><Link to='/TestPage' className="Nav-link">TestPage</Link></li>
-          <li><Link to='/CustomHookArray' className="Nav-link">Custom Hook Array</Link></li>
+          <li><Link to='/CustomHookArray' className="Nav-link">CustomHookArray</Link></li>
         </ul>
       </nav>
     </header>
