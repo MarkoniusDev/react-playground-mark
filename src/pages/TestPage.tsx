@@ -6,6 +6,13 @@ const TestPage: React.FC = () => {
       <h1>Test Page</h1>
       <p>This is a simple test page use for configuring CSS</p>
       <p>Here is another p division to help styling</p>
+      <h2>A smaller title</h2>
+      <p>Another line</p>
+      <p>One last p block</p>
+      <button>A button</button>
+      <h1>Another H1</h1>
+      <p>Again here are two p divisions</p>
+      <p>The last p division of this page</p>
     </main>
   )
 }

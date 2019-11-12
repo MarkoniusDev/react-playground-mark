@@ -8,6 +8,22 @@
   background: transparent;
 }
 
+body {
+  background-color: #282c34;
+}
+
+button {
+  color: #09d3ac;
+  background-color: #3E424B;
+  padding: 0.5em;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+button:active {
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
   background-color: #282c34;
@@ -83,6 +99,12 @@
 .Page h1 {
   color: #09d3ac;
   font-size: xx-large;
+  margin: 1.5em 0 0.5em 0;
+}
+
+.Page h2 {
+  color: #09d3ac;
+  font-size: x-large;
   margin: 0.5em 0;
 }
 
