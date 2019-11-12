@@ -1,5 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -17,6 +29,32 @@
   color: white;
 }
 
-.App-link {
+.Nav {
+  background-color: #282c34;
+}
+
+.Nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em;
+}
+
+.Nav-links > li {
+  list-style-type: none;
+}
+
+.Nav-link {
+  font-size: xx-large;
+  text-decoration: none;
   color: #09d3ac;
+}
+
+.Nav-link:visited {
+  text-decoration: none;
+  color: #09d3ac;
+}
+
+.Page {
+  background-color: #282c34;
+  color: white;
 }
