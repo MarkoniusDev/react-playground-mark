@@ -21,10 +21,23 @@ button {
   border-radius: 5px;
   font-weight: bold;
   display: block;
+  box-shadow: 0 3px #14181F;
 }
 
 button:active {
-  background-color: #282c34;
+  margin-top: calc(0.5em + 2px);
+  margin-bottom: calc(0.5em - 2px);
+  box-shadow: none;
+}
+
+input {
+  color: #09d3ac;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  text-align: center;
+  background-color: #14181F;
+  font-weight: bold;
 }
 
 .App {

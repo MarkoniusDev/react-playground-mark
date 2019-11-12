@@ -10,6 +10,7 @@ const TestPage: React.FC = () => {
       <p>Another line</p>
       <p>One last p block</p>
       <button>A button</button>
+      <input placeholder="Here is an input" />
       <h1>Another H1</h1>
       <p>Again here are two p divisions</p>
       <p>The last p division of this page</p>
