@@ -25,9 +25,8 @@ button {
 }
 
 button:active {
-  margin-top: calc(0.5em + 2px);
-  margin-bottom: calc(0.5em - 2px);
   box-shadow: none;
+  transform: translateY(3px);
 }
 
 input {
