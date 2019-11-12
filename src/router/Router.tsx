@@ -6,6 +6,7 @@ import {
   Link
 } from 'react-router-dom';
 import '../App.css';
+import Home from '../pages/Home';
 
 const Router: React.FC = () => {
   return(
@@ -22,7 +23,7 @@ const Router: React.FC = () => {
         </header>
         <Switch>
           <Route exact path='/'>
-            <h1>Page 1</h1>
+            <Home />
           </Route>
           <Route path='/page2'>
             <h1>Page 2</h1>
