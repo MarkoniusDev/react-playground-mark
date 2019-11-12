@@ -43,7 +43,7 @@ const Header = () => {
           <li><Link to='/' className="Nav-link">Home</Link></li>
         </div>
         <ul className="Nav-links">
-          <li><Link to='/TestPage' className="Nav-link">Test Page</Link></li>
+          <li><Link to='/TestPage' className="Nav-link">TestPage</Link></li>
           <li><Link to='/CustomHookArray' className="Nav-link">Custom Hook Array</Link></li>
         </ul>
       </nav>
