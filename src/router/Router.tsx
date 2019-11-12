@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 
 import '../App.css';
+import logo from '../logo.svg';
 
 import Home from '../pages/Home';
 import TestPage from '../pages/TestPage';
@@ -15,15 +16,7 @@ const Router: React.FC = () => {
   return(
     <BrowserRouter>
       <div className="App">
-        <header>
-          <nav className="Nav">
-            <ul className="Nav-links">
-              <li><Link to='/' className="Nav-link">Home</Link></li>
-              <li><Link to='/TestPage' className="Nav-link">Test Page</Link></li>
-              <li><Link to='/page3' className="Nav-link">Page 3</Link></li>
-            </ul>
-          </nav>
-        </header>
+        <Header />
         <Switch>
           <Route exact path='/'>
             <Home />
@@ -37,6 +30,23 @@ const Router: React.FC = () => {
         </Switch>
       </div>
     </BrowserRouter>
+  )
+}
+
+const Header = () => {
+  return(
+    <header>
+      <nav className="Nav">
+        <div className="Nav-logo">
+          <img src={logo} className="Header-logo" alt="logo" />
+          <li><Link to='/' className="Nav-link">Home</Link></li>
+        </div>
+        <ul className="Nav-links">
+          <li><Link to='/TestPage' className="Nav-link">Test Page</Link></li>
+          <li><Link to='/page3' className="Nav-link">Page 3</Link></li>
+        </ul>
+      </nav>
+    </header>
   )
 }
 

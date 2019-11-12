@@ -29,18 +29,36 @@
   color: white;
 }
 
+.Header-logo {
+  height: 5em;
+}
+
 .Nav {
   background-color: #282c34;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 1em 0 1em ;
+  border-bottom: #09d3ac solid 2px;
+}
+
+.Nav-logo {
+  display: flex;
+}
+
+.Nav-logo > li {
+  list-style-type: none;
+  margin: auto;
 }
 
 .Nav-links {
   display: flex;
   justify-content: space-evenly;
-  padding: 1em;
+  margin: auto 0;
 }
 
 .Nav-links > li {
   list-style-type: none;
+  margin: 0 0 0 2.5em;
 }
 
 .Nav-link {
