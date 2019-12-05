@@ -1,0 +1,9 @@
+.removed {
+  display: none;
+  color: red;
+}
+
+.hidden {
+  opacity: 0;
+  color: red;
+}

@@ -1,0 +1,18 @@
+.disabled {
+  opacity: 0.25;
+}
+
+.box-container {
+  display: flex; 
+}
+
+.team-container {
+  display: flex;
+  flex: column wrap;
+}
+
+.box-flex-element, .team-flex-item {
+  margin-top: auto;
+  text-align: center;
+  padding: 0.1em;
+}

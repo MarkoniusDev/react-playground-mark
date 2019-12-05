@@ -98,6 +98,11 @@ input {
   color: #09d3ac;
 }
 
+a {
+  color:#09d3ac;
+  text-decoration: none;
+}
+
 .Nav-link:visited {
   text-decoration: none;
   color: #09d3ac;
@@ -125,4 +130,16 @@ input {
 
 .Page p {
   margin: 0 0 0.5em;
+}
+
+.disabled {
+  opacity: 0.25;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.removed {
+  display: none;
 }
